@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet');
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet');
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    body {
+    position: relative;
+    color: rgba(0, 0, 0, 0.633);
+  }
+  ul.nav-pills {
+    top: 10%;
+    position: fixed;
+  }
+  div.col-8 div {
+    height: 100vh;
+  }
+  #image1 {
+      width: 10%;
+      border-radius: 30%;
+      border-color: rgb(40, 118, 187) 2px;
+      right: 30%;
+  }
+  #seo, #ux {
+      width: 20px;
+      border-radius: 20%;
+  }
+  #title, nav {
+    font-family: 'Aclonica', sans-serif
+  }
+  .section1, .section2, .section3, .section4, .section41, .section42, .section5 {
+    font-family: 'Satisfy', cursive;
+  }
+  #section1 {
+    background: url("bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  #cover {
+    padding: 0;
+  }
+  #scroll {
+    top: 35%;
+  }
+  #title {
+    top: 45%;
+  }
+
+  
+  </style>
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+
+<div class="container-fluid">
+  <div class="row">
+    <nav class="col-sm-3 col-4" id="myScrollspy">
+      <img id="image1" class="ml-2 w-50 mt-5" src="photo2.jpg" alt="">
+      <ul id="scroll" class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#section1">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section2">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section3">Services</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Work</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#section41">Portifolio</a>
+            <a class="dropdown-item" href="#section42">Register</a>
+          </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#section5">Contact</a>
+          </li>
+      </ul>
+    </nav>
+    <div id="cover" class="col-sm-9 col-8">
+      <div id="section1" class="bg-light">   
+        
+        <h3 id="title" class="col-9 offset-2 pb-5 text-center">Welcome to Yonic Digital Services!</h3>
+
+      </div>
+
+      <div id="section2" class="bg-light"> 
+
+        <h3 class="col-8 offset-2 pt-5 mt-5">About</h3>
+        <p class="col-8 offset-2 mt-5 ">Well-versed international professional in marketing, project management, and digital communication roles. MSc graduate in Digital Business Systems, and also holds other degrees in Business Management and Shipping. In a broader context, working and studying in Europe, Asia and Africa helped me advance my academic researching, business analytical and administrative skills. Specifically, my areas of expertise are within:</p>
+
+      </div>        
+      <div id="section3" class="bg-light">         
+        
+        <h3 class="col-8 offset-2 pt-5 mt-5 mb-5">Services</h3>
+
+        <div>
+            <p class="col-8 offset-2">Digital marketing (esp. SEO)</p>
+            <p class="col-8 offset-2">UX/UI design and enterprise systems (e.g. ERP, CRM, BI)</p>
+            <p class="col-8 offset-2">Business analytics (i.e. power BI, python, tableau)</p>
+            <p class="col-8 offset-2">Full-stack software development (incl. HTML, CSS, js, react, SQL</p>
+        </div>
+
+
+      </div>
+      <div id="section41" class="bg-light">         
+        <h3 class="col-8 offset-2 pt-5 mt-5 mb-5">Portifolio</h3>
+        
+
+      </div>      
+      <div id="section42" class="bg-light">         
+        <h3 class="col-8 offset-2 pt-5 mt-5 mb-5">Register</h3>
+      </div>
+    
+      <div id="section5" class="bg-light">         
+        
+        <h3 class="col-8 offset-2 pt-5 mt-5 mb-5">Contact</h3>
+        
+            <div class="col-8">
+              <u class="col-8">
+                  <li class="col-6">Address: Levi Mariano, 
+                      <p class="col-8 offset-1">Taguig, 1632, Metro Manila</p>
+                  </li>
+                  <li class="col-6">Contact number: +639457232179</li>
+                  <li class="col-6">Email: yonatan.t.mulatu@gmail.com</li>
+                  <li class="col-6">Research gate: <a id=researchgate href="https://www.researchgate.net/profile/Yonatan_Mulatu">Researchgate</a></li>
+                  <li class="col-6">Linkedin URL: <a id=linkedinlink href="https://www.linkedin.com/in/yonatan-mulatu-m-sc-3a49a628/">Linkedin</a></li>
+              </u>
+          </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
